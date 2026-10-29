@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "ai_pvp_bot",
+  "version": "${version}",
+  "name": "AI PvP Bot",
+  "description": "Client-side mod: an AI model (your API key) makes PvP decisions.",
+  "environment": "client",
+  "entrypoints": { "client": ["net.aipvp.AiPvpClient"] },
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
